@@ -1,0 +1,49 @@
+{
+  "name": "simple-color",
+  "version": "0.9.0",
+  "description": "simple-color implementation",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel",
+    "flow": "flow",
+    "compile": "babel src --out-dir lib && gulp flow-typed",
+    "node": "babel-node",
+    "webpack": "webpack --config demo/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexk/simple-colors.git"
+  },
+  "keywords": [
+    "color",
+    "simple",
+    "rumen",
+    "rgb",
+    "rgba",
+    "hue"
+  ],
+  "author": "Rex Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexk/simple-colors/issues"
+  },
+  "homepage": "https://github.com/rexk/simple-colors#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-syntax-flow": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.16.0",
+    "babel-plugin-transform-flow-comments": "^6.17.0",
+    "babel-preset-env": "0.0.6",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "flow-bin": "^0.33.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "webpack": "^1.13.2"
+  }
+}

@@ -1,0 +1,6 @@
+.git
+src/
+demo/
+**/__tests__/*
+.*rc
+.flowconfig
